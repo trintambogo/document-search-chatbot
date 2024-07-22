@@ -54,7 +54,10 @@ The Document Search Chatbot is designed to help users find specific information 
      ![image](https://github.com/user-attachments/assets/3b409eab-0365-40a1-90c4-5e4fec0ba028)
 
 
-
-  
-
+## FAQs
+1. **What is amazon bedrock?** This is a service that enables you to create and use pre trained machine learning models. You can customize these models with your own data and integrate them to your various applications.  
+2. **What is a knowledge base?** This is a centralized repository where your informations is stored. Once a user asks a question, the chatbot searches for the information in the knowledge base and provides accurate answers.
+3. **What are IAM permissions and why do i need to create a service role?** IAM permissions control who can access your AWS resources. Creating a service role ensures that the knowledge base has the appropriate permissions to access the S3 bucket and other resources securely.
+4. **What are Titan embeddings G1 - Text V1.2?** This is a pre trained model that converts text into numerical vectors that the model can understand.
+5. **What is a vector store?** This is a database that stores the vector represenations of your text data
 
