@@ -61,3 +61,10 @@ The Document Search Chatbot is designed to help users find specific information 
 4. **What are Titan embeddings G1 - Text V1.2?** This is a pre trained model that converts text into numerical vectors that the model can understand.
 5. **What is a vector store?** This is a database that stores the vector represenations of your text data
 
+4. **Testing the Knowledge base**
+   - On the left pane, select **"Model Access."**
+   - Click on **"Available to Request"** and request access to use the model.
+   - After a few minutes, your access will be granted.
+     ![image](https://github.com/user-attachments/assets/d2e964b4-b884-4f98-975a-85f768f423fc)
+
+ 
