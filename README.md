@@ -1,21 +1,38 @@
-# document-search-chatbot
-A chatbot that will be used to search through documents and finds the right answer based on the question you asked.
+# A Document search chatbot
 
+## Introduction
 
-1. Create a new Cloud 9 environment
+The Document Search Chatbot is designed to help users find specific information within a document. It uses AWS services like S3 for storage and other tools for searching and retrieving the relevant information.
 
-2. Update the system
-   * In the terminal, update the system packages using sudo yum update -y
-   ![image](https://github.com/trintambogo/document-search-chatbot/assets/87088123/1865e9da-e689-40a9-add4-30c389b2b1db)
+## Features
 
-3. If you are using cloud 9, CDK is automatically installed. We can verify that and check its version.
-     ![image](https://github.com/user-attachments/assets/c8ce118e-1073-4586-921a-fe0a41d8d81f)
+- Upload documents to an S3 bucket
+- Use pretrained model in amazon bedrock
+- Search and retrieve answers from the uploaded documents
+- User-friendly interface
 
-4. BootStrap the AWS environment
-   * Sets up an environment with the necessary resources for CDK to operate. It creates resources like S3 buckets and IAM roles which are important for storing deployment assets and managing roles. Without this you will not be able to deploy CDK applications.
-   - cdk bootstrap aws://account-id/account-region
-       
-![image](https://github.com/user-attachments/assets/e97c428d-aabf-404a-b22a-d7b4a24a4aee)
+## Architecture
 
+### Prerequisites
+
+### Step-by-Step Guide
+
+1. **Create an S3 Bucket**
+
+   - Log in to your AWS Management Console.
+   - Navigate to the S3 service.
+   - Click on "Create bucket."
+   - Enter a unique name for your bucket and select the appropriate region.
+   - Click "Create bucket."
+     
+
+2. **Upload Documents**
+
+   - Go to your S3 bucket.
+   - Click on "Upload."
+   - Select the document(s) you want to upload.
+   - Click "Upload" to finish.
+  
+     ![image](https://github.com/user-attachments/assets/10a8e7e3-ba5a-44f4-ba6c-94fddad6cec6)
 
 
